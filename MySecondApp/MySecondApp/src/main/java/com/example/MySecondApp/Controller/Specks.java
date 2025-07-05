@@ -21,7 +21,7 @@ public class Specks {
     public List<String> getAllpharma(){
 
 
-        return List.of("vial","cup","rubber","glass");
+        return List.of("vial","cup","rubber","glass","pencil");
     }
 
 
