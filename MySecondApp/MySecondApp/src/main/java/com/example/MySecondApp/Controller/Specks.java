@@ -16,4 +16,14 @@ public class Specks {
 
         return List.of("SUN GLASES","MOON GLASES","REBN GLASES");
     }
+
+    @RequestMapping(value = "/pharma",method = RequestMethod.GET)
+    public List<String> getAllpharma(){
+
+
+        return List.of("vial","cup","rubber","glass");
+    }
+
+
+
 }
